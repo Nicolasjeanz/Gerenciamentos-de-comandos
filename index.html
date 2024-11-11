@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Nicolas Jean">
+        <title>Comando de pedidos</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="gerenciamento-pedidos">
+                <h1 class="titulo-gerenciamento">Gerenciamento de pedidos</h1>
+
+                <div class="formulario">
+                    <label for="produto">Produto</label>
+                    <input type="text" id="produto" placeholder="Nome do Produto" required>
+
+                    <label for="quantidade">Quantidade</label>
+                    <input type="number" id="quantidade" placeholder="quantidade" required>
+
+                </div>
+
+                    <button class="btn-add" onclick="adicionarpedido()">Adicionar</button>
+
+                <div class="pedidos">
+                    <h2 class="subtitulo-pedidos">Lista de Pedidos</h2>
+                    <span id="nao-existe">Não existe Pedidos!</span>
+                    <!--Aqui será inserido os LI via Javascript-->
+                    <ul id="lista-pedidos">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="js/scrpit.js"></script>
+    </body>
+</html>
