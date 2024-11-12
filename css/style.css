@@ -61,9 +61,9 @@ button {
 
 #nao-existe {
     color: dimgray;
-    align-self: center;
-    margin: 15px 0;
-    justify-self: center;
+    text-align: center;
+    display: block;
+    width: 100%;
 }
 
 .gerenciamento-pedidos {
